@@ -1,0 +1,158 @@
+body{
+  font-family: 'CourierPrimeRegular';
+     font-weight: normal;
+     font-style: normal;
+  margin: 0px;
+  padding: 0px;
+  background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+  background-position: cover;
+  background-size: 100%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+
+button{
+  display: none;
+}
+
+.logo{
+  height: 50px;
+  width: 90px;
+  float: left;
+
+}
+
+li{
+  color: #13479c;
+}
+
+li a{
+  color: white;
+  margin: 5px;
+  padding: 50px 50px;
+  float: right;
+  border: 2px solid white;
+  margin-left: 80px;
+  border-radius: 14px;
+  border-spacing: 30px;
+  display: block;
+}
+
+.navbar-brand{
+  margin: 5px;
+  font-family: 'Pacifico', cursive;
+  padding: 20px 20px;
+}
+
+nav{
+  background: linear-gradient(-90deg, rgb(252, 0, 255, 0.7), rgb(0, 219, 222, 0.9));
+  justify-content: space-around;
+  width:100%;
+  display: inline-flex;
+  align-items: center;
+  height:20%;
+}
+
+.nav-link:hover{
+background: linear-gradient(to right, #009fff, #ec2f4b);
+  color: black;
+  transition: 0.6s ease-in-out;
+}
+
+.form{
+  margin:auto;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.7);
+  max-width: 400px;
+  border-radius: 20px;
+  height: 80%;
+  margin-top: 30px;
+  padding: 40px;
+  color: #fff;
+  }
+
+.button{
+  height: 45px;
+  width: 130px;
+  color: white;
+  font-family: 'Chivo';
+  border-radius: 40px;
+  display: inline-block;
+  margin-top: 30px;
+  line-height: normal;
+  padding: 5px,5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.button:hover{
+    /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: black;
+}
+
+th{
+  padding: 20px,20px;
+  margin:auto;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+input,select{
+  border-radius: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 35px;
+  background: rgba(0,0,0,.10);
+  border: none;
+  outline:none;
+  padding:12px 5px;
+  margin: 5px;
+  border-bottom: 3px solid white;
+  font-family: 'CourierPrimeRegular';
+  font-weight: normal;
+  font-style: normal;
+  color:white;
+
+}
+::-webkit-input-placeholder{
+  color: rgba(250,245,245,0.6);
+  font-family: cursive;
+}
+
+.dropdown-menu ol{
+  list-style: none;
+}
+
+.dropdown:hover> .dropdown-menu li{
+  background-color: linear-gradient(to top, #fc466b, #3f5efb);
+  text-align: justify;
+  margin: 0px 0px;
+}
+
+.dropdown:hover> .dropdown-item{
+  text-align:left;
+  color: black;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+
+.dropdown:hover> .dropdown-menu
+{
+  display: block;
+  position: absolute;
+  margin: 0px 70px;
+  width: 90px;
+  /* background: linear-gradient(90deg, rgb(252, 0, 255), rgb(0, 219, 222)); */
+  border-radius: 15px;
+  background-color: rgba(65, 113, 224, 0.8);
+  position: absolute;
+}
+.dropdown{
+  position: relative;
+}

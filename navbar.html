@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/grundschrift" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/courier-prime" type="text/css"/>
+  </head>
+  <body>
+    <div class="headerclass">
+    <nav class="navbar navbar-default navbar-expand-md navbar-dark bg-dark navbar-fixed-top navbar-inverse">
+      <!-- creating navbar header -->
+      <a href="#" class="navbar-brand"><img src="logo.PNG" class="logo" alt=""></a>
+      <a href="#" class="navbar-brand"><h3><b>Welcome</b></h3></a>
+      <!-- creating button icon  -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <!-- creating collapsable navbar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ol class="nav navbar-nav ">
+            <!-- creating navbar-items -->
+            <li class="nav-item"><a href="#" class="nav-link" style="color:white; padding: 20px, 20px;">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="color:white;" >Notifications</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="color:white;">About Us</a></li>
+
+            <!-- Creating Dropdown menus and submenus -->
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="NavbarDropdown"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color:white">Dedicated Staff</a>
+              <div class="dropdown-menu" aria-labelledby="NavbarDropdown">
+                <ol id="m">
+                  <li><a href="#" class="dropdown-item">COMPUTER DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">ELECTRONICS DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">CIVIL DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">MECHANICAL DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">CHEMICAL DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">IT DEPT</a></li>
+                  <li><a href="#" class="dropdown-item">HUMANITY DEPT</a></li>
+
+                </ol>
+              </div>
+            </li>
+          </ol>
+        </div>
+    </nav>
+    </div>
+    <div class="class1">
+    <form class="form" action="index.html" method="post">
+      <div class="form1 container">
+        <h1 >Sign Up Here!!!</h1>
+        <input type="text" name="firstname" placeholder="First Name" style="border-radius:20px; border-bottom: 2px solid white;" required> <p></p>
+        <input type="text" name="Lasttname" placeholder="Last Name"  required> <p></p>
+
+
+        </select> <p></p>
+        <table>
+          <thead>
+            <th>  <label><h4> Year:</h4></label></th>
+            <th>   <select class="form-control" name="Year" value="Year" required>
+                <option value="">Year</option>
+                <option value="1">1st </option>
+                <option value="2">2nd </option>
+                <option value="3">3rd </option>
+                <option value="4">4th </option> </th>
+          </thead>
+
+          <thead>
+            <th> <label ><h4> Department: </h4></label> </th>
+            <th>  <select class="form-control" name="Department" required>
+                <option value="IT">Department</option>
+                <option value="IT">IT DEPT</option>
+                <option value="COMPUTER">COMPUTER DEPT </option>
+                <option value="ELECTRONICS">ELECTRONICS DEPT</option>
+                <option value="CIVIL">CIVIL DEPT </option>
+                <option value="CHEMICAL">CHEMICAL DEPT </option>
+                <option value="MECHANICAL">MECHANICAL DEPT </option>
+                <option value="HUMANITY">HUMANITY DEPT </option>
+              </select> <p></p></th>
+          </thead>
+        </table>
+
+
+        <input type="email" placeholder="Enter your Email Id" required ><p></p>
+        <input type="tel" placeholder="Enter your Phone number" required><p></p>
+        <label><h6> Select your Security Question</h6></label>
+        <select  name="Question" class="form-control"  required>
+          <option value="Q1" >Select your Security Question </option>
+          <option value="Q1">In which town your Dad was born? </option>
+          <option value="Q2">In which town your Mom was born? </option>
+          <option value="Q3">What is your place of your Birth></option>
+          <option value="Q4">What was your childhood Nickname? </option>
+          <option value="Q5">What was the first Vehicle you owned?</option>
+          <option value="Q6">What is your Favourite Sport</option>
+          <option value="Q7">What is your Grandpa's Name?</option>
+          <option value="Q8">What is your Grandma's Name?</option>
+          <option value="Q9">Other</option>
+        </select> <p></p>
+        <input type="text" placeholder="Enter your Answer" class="form-control" required><p></p>
+        <input type="submit" class="button" style="margin-right: 12px;" value="Sign Up" >
+        <input type="reset" value="Clear" class="button" >
+
+
+
+
+
+
+
+      </div>
+    </div>
+    </form>
+
+
+
+
+  </body>
+</html>
